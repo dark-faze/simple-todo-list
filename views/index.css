@@ -1,0 +1,80 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  color: white;
+  font-family: poppins;
+}
+
+h1 {
+  color: red;
+  font-family: poppins;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.taskbox p {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}
+.container ul {
+  display: block;
+  padding: 0px;
+}
+li {
+  list-style-type: none;
+}
+
+.taskbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  width: 30vw;
+  max-width: 50vw;
+  padding: 8px 14px 8px 14px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.taskbox h4 {
+  margin: 0px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30vw;
+  margin: auto;
+}
+
+form input {
+  font-family: poppins;
+  position: relative;
+  background: none;
+  margin: 10px 10px;
+  padding: 10px 5px 10px 5px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  background-color: white;
+  border-radius: 5px;
+}
+.delete-button {
+  margin-left: 20px;
+}
+button[type="submit"] {
+  margin-top: 10px;
+  width: 100%;
+  height: 30px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+}
